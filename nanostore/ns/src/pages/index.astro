@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ReactButton from '../components/ReactButton.jsx';
+import VueInput from '../components/VueInput.vue';
+import BigBlock from '../components/BigBlock.vue';
+import BottomDiv from '../components/BottomDiv.jsx';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<ReactButton client:only="react" />
+		<VueInput client:only="vue" />
+		<BigBlock />
+		<BottomDiv client:visible />
+		<BottomDiv client:visible />
+		<BottomDiv client:visible />
+		<BottomDiv client:visible />
+	</main>
+</Layout>
+
+<style>
+	main {
+		display: flex;
+    gap: 2rem;
+    flex-direction: column;
+	}
+</style>
