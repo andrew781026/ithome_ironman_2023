@@ -1,5 +1,5 @@
 {
-  "name": "mf",
+  "name": "testing",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,11 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.0",
+    "@astrojs/react": "^3.0.1",
     "@astrojs/vue": "^3.0.0",
+    "@nanostores/react": "^0.7.1",
+    "@nanostores/vue": "^0.10.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "astro": "^3.0.7",
+    "astro": "^3.0.10",
+    "nanostores": "^0.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vue": "^3.3.4"

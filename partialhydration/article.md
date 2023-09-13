@@ -1,4 +1,4 @@
-- Nanostore
+- Micro FrontEnd
 
 ```shell
 # 使用 npm 建立新專案
@@ -7,8 +7,6 @@ npm create astro@latest
 npx astro add vue
 # add react framework
 npx astro add react
-# add nanostores
-npm install nanostores @nanostores/react @nanostores/vue
 ```
 
 
@@ -18,4 +16,5 @@ npm install nanostores @nanostores/react @nanostores/vue
 - https://docs.astro.build/zh-tw/guides/integrations-guide/vue/
 - https://docs.astro.build/zh-tw/guides/integrations-guide/react/
 
-- nanostore : https://docs.astro.build/zh-tw/core-concepts/sharing-state/#installing-nano-stores
+- element-plus https://element-plus.org/zh-CN/
+- tonic-UI https://trendmicro-frontend.github.io/tonic-ui/react/latest/
