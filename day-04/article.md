@@ -19,7 +19,7 @@ Islands Architecture 這個概念是由 Jason Miller 提出 , 每個網頁的區
 
 如下圖所示 , Header 跟 Image carousel , 視為不同的區塊 , 由不同的團隊維護 , 
 
-![](https://github.com/andrew781026/ithome_ironman_2023/blob/master/day-03/imgs/astro-island.png)
+![](https://raw.githubusercontent.com/andrew781026/ithome_ironman_2023/master/day-04/imgs/astro-island.png)
 
 那我們就可以在同一個頁面中 , 利用不同的技術來區分區塊 & 組合成完整的頁面 , 以下為頁面的想像
 
