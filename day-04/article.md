@@ -1,4 +1,4 @@
-- [Day 04] 分而治理的區塊 - Astro Island
+# [Day 04] 分而治理的區塊 - Astro Island
 
 在 day-02 中我們說明了 Micro-Frontend 的起因 , 跟五種已在執行的解決方案
 

@@ -1,4 +1,4 @@
-- [Day 03] 你的第一個 Astro.js
+# [Day 03] 你的第一個 Astro.js
 
 今天我們先跟著 [Astro.js 的安裝指南](https://docs.astro.build/zh-tw/install/auto/)來試用一下 , 
 
