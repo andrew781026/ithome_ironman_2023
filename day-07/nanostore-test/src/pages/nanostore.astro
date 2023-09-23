@@ -1,0 +1,21 @@
+---
+import ReactCounter from '../components/NanoCounter.jsx';
+import VueCounter from '../components/NanoCounter.vue';
+---
+
+<main>
+<ReactCounter client:only="react" />
+<VueCounter client:only="vue"/>
+</main>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+</style>

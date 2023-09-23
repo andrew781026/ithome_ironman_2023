@@ -1,0 +1,21 @@
+---
+import ReactCounter from '../components/Counter.jsx';
+import VueCounter from '../components/Counter.vue';
+---
+
+<main>
+<ReactCounter client:load />
+<VueCounter client:load/>
+</main>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+</style>
