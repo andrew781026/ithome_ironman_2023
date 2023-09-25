@@ -14,7 +14,7 @@ Astro.js 在預設情況下 , 都是使用 SSG 模式 , 這個模式預先 Gener
 
 ```vue
 ---
-+ export const prerender = true;
++ export const prerender = false;
 // ...
 ---
 <html>
